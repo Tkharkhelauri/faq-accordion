@@ -58,6 +58,10 @@ body {
 	justify-content: space-between;
 	gap: 24px;
 }
+button {
+	width: 30px;
+	height: 30px;
+}
 h1,
 .dropdown-question p {
 	color: var(--color-dark-purple);
