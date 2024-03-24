@@ -52,7 +52,7 @@ body {
 }
 .faq-dropdown {
 	border-bottom: 1px solid #ccc;
-	gap: 1.5rem;
+	/* gap: 1.5rem; */
 }
 .dropdown-question {
 	padding-top: 20px;
@@ -93,9 +93,12 @@ button img {
 		height: 20rem;
 	}
 	.container__faq {
-		margin-top: -160px;
+		margin-top: -155px;
 		min-width: 600px;
 		padding: 2.5rem;
+	}
+	.faq-dropdown {
+		min-width: 520px;
 	}
 	.dropdown-question p {
 		max-width: unset;
